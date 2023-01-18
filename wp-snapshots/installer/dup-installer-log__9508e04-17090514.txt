@@ -1,0 +1,273 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 10:39:04
+* VERSION: 1.3.8
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		5.6.40 | SAPI: cgi-fcgi
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		Apache
+DOC ROOT:	/home/palmetto/public_html/mypalmetto
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://palmettobrewery.com/mypalmetto/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190514_palmettobrewingco_9508e0434273a1f84030_20190517090514_archive.zip
+SIZE:	124.26MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/palmetto/public_html/mypalmetto/20190514_palmettobrewingco_9508e0434273a1f84030_20190517090514_archive.zip' -d '/home/palmetto/public_html/mypalmetto' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 10:39:06 - RUNTIME: 2.4531 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:40:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.40 -- Build Server: 10.1.38
+FILE SIZE:	dup-database__9508e04-17090514.sql (3.42MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/palmetto/public_html/mypalmetto/dup-installer/dup-installer-data__9508e04-17090514.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	574
+
+user_badges: (5)
+user_rewards: (1)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_everest_review_form_table: (1)
+wp_everest_user_review_table: (0)
+wp_groups_rs: (9)
+wp_links: (0)
+wp_nf3_action_meta: (82)
+wp_nf3_actions: (4)
+wp_nf3_chunks: (0)
+wp_nf3_field_meta: (0)
+wp_nf3_fields: (4)
+wp_nf3_form_meta: (98)
+wp_nf3_forms: (1)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_nf3_upgrades: (1)
+wp_options: (322)
+wp_pmxe_exports: (0)
+wp_pmxe_google_cats: (5371)
+wp_pmxe_posts: (0)
+wp_pmxe_templates: (0)
+wp_postmeta: (19174)
+wp_posts: (324)
+wp_pp_builder_widget: (1)
+wp_pp_edit_profile_builder: (3)
+wp_pp_login_builder: (11)
+wp_pp_melange: (1)
+wp_pp_password_reset_builder: (1)
+wp_pp_passwordless: (0)
+wp_pp_profile_fields: (11)
+wp_pp_registration_builder: (2)
+wp_pp_revisions: (24)
+wp_pp_user_profile_builder: (1)
+wp_richreviews: (3)
+wp_rm_fields: (14)
+wp_rm_forms: (2)
+wp_rm_front_users: (0)
+wp_rm_login: (10)
+wp_rm_login_log: (0)
+wp_rm_notes: (0)
+wp_rm_paypal_fields: (0)
+wp_rm_paypal_logs: (0)
+wp_rm_rules: (0)
+wp_rm_sent_mails: (0)
+wp_rm_sessions: (0)
+wp_rm_stats: (0)
+wp_rm_submission_fields: (0)
+wp_rm_submissions: (0)
+wp_rm_task_exe_log: (0)
+wp_rm_tasks: (0)
+wp_role_scope_rs: (0)
+wp_term_relationships: (6)
+wp_term_taxonomy: (3)
+wp_termmeta: (0)
+wp_terms: (3)
+wp_user2group_rs: (0)
+wp_user2role2object_rs: (396)
+wp_user_registration_sessions: (0)
+wp_usermeta: (26403)
+wp_users: (5)
+wp_wpuf_subscribers: (0)
+wp_wpuf_transaction: (0)
+Removed '8' cache/transient rows
+
+INSERT DATA RUNTIME: 3.5633 sec.
+STEP-2 COMPLETE @ 10:40:40 - RUNTIME: 3.6510 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 10:41:01
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+user_badges~ (5)
+user_rewards~ (1)
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_everest_review_form_table~ (1)
+wp_everest_user_review_table^ (0)
+wp_groups_rs~ (9)
+wp_links^ (0)
+wp_nf3_action_meta~ (82)
+wp_nf3_actions~ (4)
+wp_nf3_chunks^ (0)
+wp_nf3_field_meta^ (0)
+wp_nf3_fields~ (4)
+wp_nf3_form_meta~ (98)
+wp_nf3_forms~ (1)
+wp_nf3_object_meta^ (0)
+wp_nf3_objects^ (0)
+wp_nf3_relationships^ (0)
+wp_nf3_upgrades~ (1)
+wp_options~ (322)
+wp_pmxe_exports^ (0)
+wp_pmxe_google_cats~ (5371)
+wp_pmxe_posts^ (0)
+wp_pmxe_templates^ (0)
+wp_postmeta~ (19174)
+wp_posts~ (324)
+wp_pp_builder_widget~ (1)
+wp_pp_edit_profile_builder~ (3)
+wp_pp_login_builder~ (11)
+wp_pp_melange~ (1)
+wp_pp_password_reset_builder~ (1)
+wp_pp_passwordless^ (0)
+wp_pp_profile_fields~ (11)
+wp_pp_registration_builder~ (2)
+wp_pp_revisions~ (24)
+wp_pp_user_profile_builder~ (1)
+wp_richreviews~ (3)
+wp_rm_fields~ (14)
+wp_rm_forms~ (2)
+wp_rm_front_users^ (0)
+wp_rm_login~ (10)
+wp_rm_login_log^ (0)
+wp_rm_notes^ (0)
+wp_rm_paypal_fields^ (0)
+wp_rm_paypal_logs^ (0)
+wp_rm_rules^ (0)
+wp_rm_sent_mails^ (0)
+wp_rm_sessions^ (0)
+wp_rm_stats^ (0)
+wp_rm_submission_fields^ (0)
+wp_rm_submissions^ (0)
+wp_rm_task_exe_log^ (0)
+wp_rm_tasks^ (0)
+wp_role_scope_rs^ (0)
+wp_term_relationships~ (6)
+wp_term_taxonomy~ (3)
+wp_termmeta^ (0)
+wp_terms~ (3)
+wp_user2group_rs^ (0)
+wp_user2role2object_rs~ (396)
+wp_user_registration_sessions^ (0)
+wp_usermeta~ (26403)
+wp_users~ (5)
+wp_wpuf_subscribers^ (0)
+wp_wpuf_transaction^ (0)
+--------------------------------------
+Search1:	'@localhost' 
+Change1:	'@palmettobrewery.com' 
+Search2:	'%40localhost' 
+Change2:	'%40palmettobrewery.com' 
+Search3:	'C:/xampp/htdocs/mypalmetto' 
+Change3:	'/home/palmetto/public_html/mypalmetto' 
+Search4:	'C:\/xampp\/htdocs\/mypalmetto' 
+Change4:	'\/home\/palmetto\/public_html\/mypalmetto' 
+Search5:	'C%3A%2Fxampp%2Fhtdocs%2Fmypalmetto%2F' 
+Change5:	'%2Fhome%2Fpalmetto%2Fpublic_html%2Fmypalmetto%2F' 
+Search6:	'C:\xampp\htdocs\mypalmetto' 
+Change6:	'/home/palmetto/public_html/mypalmetto' 
+Search7:	'C:\\xampp\\htdocs\\mypalmetto' 
+Change7:	'\/home\/palmetto\/public_html\/mypalmetto' 
+Search8:	'C%3A%5Cxampp%5Chtdocs%5Cmypalmetto' 
+Change8:	'%2Fhome%2Fpalmetto%2Fpublic_html%2Fmypalmetto' 
+Search9:	'//localhost/mypalmetto' 
+Change9:	'//palmettobrewery.com/mypalmetto' 
+Search10:	'\/\/localhost\/mypalmetto' 
+Change10:	'\/\/palmettobrewery.com\/mypalmetto' 
+Search11:	'%2F%2Flocalhost%2Fmypalmetto' 
+Change11:	'%2F%2Fpalmettobrewery.com%2Fmypalmetto' 
+Search12:	'https://palmettobrewery.com' 
+Change12:	'http://palmettobrewery.com' 
+Search13:	'https:\/\/palmettobrewery.com' 
+Change13:	'http:\/\/palmettobrewery.com' 
+Search14:	'https%3A%2F%2Fpalmettobrewery.com' 
+Change14:	'http%3A%2F%2Fpalmettobrewery.com' 
+SCANNED:	Tables:66 	|	 Rows:52298 	|	 Cells:226387 
+UPDATED:	Tables:2 	|	 Rows:2693 	|	 Cells:2704 
+ERRORS:		0 
+RUNTIME:	1.773100 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/palmetto/public_html/mypalmetto/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 10:41:03 - RUNTIME: 1.7961 sec. 
+
+
